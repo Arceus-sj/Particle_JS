@@ -1,0 +1,67 @@
+{
+    "particles": {
+        "number": {
+            "value": 200
+        },
+        "color": {
+            "value": "#fff"
+        },
+        "shape": {
+            "type": "circle",
+            "stroke": {
+                "width": 2,
+                "color": "#ef233c"
+            },
+            "image": {
+                "src":"https://e7.pngegg.com/pngimages/629/309/png-clipart-discord-logo-computer-servers-others-computer-logo.png"
+            }
+        },
+        "opacity":{
+            "value": 0.5,
+            "random": true,
+            "anim":{
+                "enable":false,
+                "speed":1
+            }
+        },
+        "size":{
+            "value": 8,
+            "random": false,
+            "anim":{
+                "enable":true,
+                "speed":10
+            }
+        },
+        "line_linked":{
+            "enable":true,
+            "distance":120,
+            "color": "#fff",
+            "width":1,
+            "opacity": 0.5
+        },
+        "move":{
+            "enable":true,
+            "speed": 2,
+            "direction": "bottom-right",
+            "straight": false
+        }
+    },
+    "interactivity":{
+        "events":{
+            "onhover":{
+                "enable":true,
+                "mode":"bubble"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "repulsegit "
+            }
+        },
+        "modes":{
+            "bubble":{
+                "distance":100,
+                "size":50
+            }
+        }
+    }
+}
